@@ -1,0 +1,29 @@
+{
+  "name": "es6test",
+  "version": "1.0.0",
+  "description": "es6study",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/index.js -o dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/encounter1105/es6test.git"
+  },
+  "keywords": [],
+  "author": "lj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/encounter1105/es6test/issues"
+  },
+  "homepage": "https://github.com/encounter1105/es6test#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "core-js": "^3.8.1"
+  }
+}
